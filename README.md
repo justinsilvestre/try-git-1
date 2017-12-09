@@ -1,8 +1,9 @@
 Trying out Git!
 ----
 
-## Commands we've learned
+## Commands We've learned
 
+### Basic Commands
 
 * Initialize a repository
 
@@ -26,8 +27,25 @@ Trying out Git!
 
 * Add a remote repository (link local repository to it)
 
-	'git remote add <remote name> <url>'
+	`git remote add <remote name> <url>`
 
 * Push local changes to remote repository
 
-	'git push (-u first time) <remote name> <branch>'
+	`git push (-u first time) <remote name> <branch>`
+
+* Show log
+	`git log (--oneline)`
+
+### Branches
+
+* List all branches
+
+	`git branch -l`
+
+* Create new branch
+
+	`git checkout -b <branch name>`
+
+* Switch to an **existing** branch
+
+	`git checkout <branch name>`
