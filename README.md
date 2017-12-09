@@ -4,7 +4,7 @@ Trying out Git!
 ## Commands we've learned
 
 
-& Initialize a repository
+* Initialize a repository
 
 	`git init`
 
@@ -15,6 +15,10 @@ Trying out Git!
 * Add file/directory to next commit
 
 	`git add <filename>`
+
+* Remove file/directory from next commit
+
+	'git reset <filename>'
 
 * Make a commit with the *currently staged files*
 
